@@ -40,7 +40,7 @@ This project serves a dual purpose:
 | Attachments | `/attachments` | `attachments()->findByFile()` | 🔜 Planned |
 | Documents | `/documents` | `documents()->findAll()` | 🔜 Planned |
 | Contents | `/contents` | `contents()->findAll()` | 🔜 Planned |
-| Projects | `/projects` | `projects()->findBuild()` | 🔜 Planned |
+| Projects | `/projects` | `projects()->findBuild()` | ✅ Done |
 
 ## Requirements
 
