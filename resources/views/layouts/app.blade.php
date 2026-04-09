@@ -152,9 +152,9 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-secondary disabled">
+                        <a class="nav-link {{ request()->routeIs('projects.*') ? 'active' : '' }}"
+                           href="{{ route('projects.index') }}">
                             <i class="bi bi-kanban me-2"></i>Projects
-                            <span class="badge bg-secondary ms-auto float-end" style="font-size:.6rem">soon</span>
                         </a>
                     </li>
                 </ul>

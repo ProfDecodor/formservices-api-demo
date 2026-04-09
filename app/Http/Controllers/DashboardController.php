@@ -70,8 +70,8 @@ class DashboardController extends Controller
                 'description' => 'Studio — deploy and test projects.',
                 'icon'        => 'bi-kanban',
                 'color'       => 'success',
-                'available'   => false,
-                'route'       => '#',
+                'available'   => true,
+                'route'       => route('projects.index'),
             ],
         ];
 
